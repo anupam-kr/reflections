@@ -1,0 +1,10 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Initialising a repository involves converting a simple directory to a git repository. This creates a hidden directory .git that stores all the metadata git uses to keep track of commits and versions of files inside that directory making the directory and its sub-directories a repository.
+	Initialising a repository is the first step to create a repository from a directory and hence mandatory.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area is something intermediate place between the working directory and the repository. While the repository contains final committed files and the working directory contains modified or new uncommitted files that we might be working on, the staging area contains files that are ready to be committed.
+	Staging area offers more control on what to be committed by providing an intermediate space between committed and uncommitted files helping to keep commits more rational.
+
