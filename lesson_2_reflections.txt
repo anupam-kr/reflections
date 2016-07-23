@@ -8,3 +8,15 @@ How is the staging area different from the working directory and the repository?
 The staging area is something intermediate place between the working directory and the repository. While the repository contains final committed files and the working directory contains modified or new uncommitted files that we might be working on, the staging area contains files that are ready to be committed.
 	Staging area offers more control on what to be committed by providing an intermediate space between committed and uncommitted files helping to keep commits more rational.
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+As asserted before, the staging area is an intermediate place between the working directory and the repository. Before making a commit, you need to add the files to be committed to the staging area. This allows you to be independent in selecting files before committing making sure you have one commit per logical change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches can be helpful in variety of situations, specially when we are working on some experimental feature and are not sure to incorporate it in the final production version of the software. 
+Branches can help us take risk and deviate from main production stream to work upon something that we consider a risk without disrupting the working version and ongoing production of the software.
+
+How do the diagrams help you visualize the branch structure?
+
+Without diagrams, branch structure would be something difficult to understand requiring a lot of reading and contemplation to get through. Diagrams make it super easy by introducing the figure before the eyes one would struggle to produce in brain making it more easy to understand the concept of branches and reachability.
