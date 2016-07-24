@@ -20,3 +20,8 @@ Branches can help us take risk and deviate from main production stream to work u
 How do the diagrams help you visualize the branch structure?
 
 Without diagrams, branch structure would be something difficult to understand requiring a lot of reading and contemplation to get through. Diagrams make it super easy by introducing the figure before the eyes one would struggle to produce in brain making it more easy to understand the concept of branches and reachability.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result of merging two branches together is merging the final changes introduced in both the branches and updating the tip of the branch currently checked out to a new merge commit. Merging interleaves commit histories from two branches into one. 
+Representing merge in diagram makes it easier to understand the concept introduced as it can be a bit tricky to comprehend.
