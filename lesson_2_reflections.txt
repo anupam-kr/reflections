@@ -25,3 +25,7 @@ What is the result of merging two branches together? Why do we represent it in t
 
 The result of merging two branches together is merging the final changes introduced in both the branches and updating the tip of the branch currently checked out to a new merge commit. Merging interleaves commit histories from two branches into one. 
 Representing merge in diagram makes it easier to understand the concept introduced as it can be a bit tricky to comprehend.
+
+What are pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+While Git’s automatic merging can save a lot of time and work, it can also sometime end up with something unexpected. You might end up getting a merged version of your code that doesn’t compiles or makes sense. Merging manually is always a better option as you have complete control on what you get in the merged version but at the same time it can be time taking and might require consulting your colleagues to resolve conflicts.
