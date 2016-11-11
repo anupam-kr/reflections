@@ -18,3 +18,8 @@ Having a copy of the last known state of the remote allows to compare and merge 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 It would be a lot harder to collaborate using Git or GitHub. You will actually have to identify and mention each and every change in code to every collaborator using emails or whatever means you use. But I think this hard to imagine collaboration without a version control and cloud connected solution like Git or GitHub.
+
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Making changes in a separate branch can be a more convenient and straight-forward way to collaborate with multiple people, esp. if a few people are working on a similar module in a software development. Howbeit, it solely depends on the situation and the convenience of the team. Making changes in a separate branch keeps the working code intact whereas making changes directly on the master branch is a more easier to merge and update.
